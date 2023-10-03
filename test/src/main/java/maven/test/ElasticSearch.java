@@ -9,7 +9,7 @@ public class ElasticSearch {
 
     public ElasticSearch() {
          restClient = RestClient.builder(
-                new HttpHost("localhost", 9200, "http")
+                new HttpHost("ssel.asuscomm.com", 9192, "http")
          ).build();
 
     }
